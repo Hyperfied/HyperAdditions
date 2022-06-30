@@ -3,6 +3,7 @@ package net.hyperfied.hyperaddons.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.hyperfied.hyperaddons.HyperAddons;
+import net.hyperfied.hyperaddons.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -13,7 +14,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block OCEAN_BLOCK = registerBlock("ocean_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+    public static final Block OCEAN_BLOCK = registerBlock("ocean_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.HYPER);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

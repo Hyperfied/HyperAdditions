@@ -2,5 +2,7 @@
   "item.hyperaddons.diamond_nugget": "Diamond Nugget",
   "item.hyperaddons.emerald_nugget": "Emerald Nugget",
 
-  "block.hyperaddons.ocean_block": "Ocean Block"
+  "block.hyperaddons.ocean_block": "Ocean Block",
+
+  "itemGroup.hyperaddons.hyper": "Hyper Addons"
 }
