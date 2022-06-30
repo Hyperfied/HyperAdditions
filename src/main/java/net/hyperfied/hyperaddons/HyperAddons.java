@@ -1,6 +1,7 @@
 package net.hyperfied.hyperaddons;
 
 import net.fabricmc.api.ModInitializer;
+import net.hyperfied.hyperaddons.block.ModBlocks;
 import net.hyperfied.hyperaddons.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,5 +17,6 @@ public class HyperAddons implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
